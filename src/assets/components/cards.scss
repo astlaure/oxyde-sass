@@ -1,0 +1,5 @@
+@use "../abstracts/variables" as *;
+
+.card {
+  border: thin solid $color-grey-600;
+}

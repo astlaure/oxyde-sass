@@ -1,1 +1,16 @@
-.button {}
+@use "../abstracts/variables" as *;
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: thin solid $color-grey-600;
+  font-weight: 500;
+  transition: background-color 150ms ease-in-out;
+
+  &:hover {
+    background-color: $color-grey-200;
+  }
+
+  &.primary {}
+}

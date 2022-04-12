@@ -1,0 +1,49 @@
+@use "../abstracts/variables" as *;
+
+.form {
+  width: 100%;
+
+  label {
+    font-weight: 500;
+  }
+
+  input, textarea, select {
+    padding: 0.5rem;
+    font-size: $text-md;
+    font-family: $font-primary;
+    font-weight: 400;
+    background-color: white;
+    border: thin solid #c7c7c7;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox],
+  input[type=radio] {
+    height: 1rem;
+    width: 1rem;
+    margin: 0;
+  }
+
+  .input {
+    display: block;
+    margin-bottom: 1rem;
+
+    input, select, textarea {
+      width: 100%;
+      margin-top: 0.25rem;
+    }
+  }
+
+  .inline-input {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: 400;
+
+    input {
+      margin-right: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

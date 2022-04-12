@@ -1,5 +1,5 @@
-import typographyTemplate from './typography.html';
+import template from './typography.html';
 
-export const typography = () => typographyTemplate;
+export const Typography = () => template;
 
-export default { title: 'base/typography' };
+export default { title: 'Base/Typography' };

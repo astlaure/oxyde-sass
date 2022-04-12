@@ -5,9 +5,25 @@ $breakpoint-container: 75em;
 
 /** Colors **/
 $color-primary: #333333;
+$color-secondary: #333333;
+
+$color-black: #333333;
+$color-grey-800: #b8b8b8;
+$color-grey-600: #c7c7c7;
+$color-grey-400: #d6d6d6;
+$color-grey-200: #e5e5e5;
+$color-white: #ffffff;
 
 /** Fonts **/
 $font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
 
 /** Text Sizes **/
+$text-xs: 0.563rem;
+$text-sm: 0.75rem;
 $text-md: 1rem;
+$text-lg: 1.333rem;
+$text-xl: 1.777rem;
+$text-2xl: 2.369rem;
+$text-3xl: 3.157rem;
+$text-4xl: 4.209rem;

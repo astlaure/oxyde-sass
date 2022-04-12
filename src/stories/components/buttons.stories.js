@@ -1,5 +1,5 @@
 import template from './buttons.html';
 
-export const basic = () => template;
+export const Buttons = () => template;
 
-export default { title: 'components/buttons' };
+export default { title: 'Components/Buttons' };
