@@ -1,5 +1,7 @@
 @use "../abstracts/variables" as *;
 
 .card {
-  border: thin solid $color-grey-600;
+  border: thin solid $color-grey-200;
+  padding: 2rem 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
