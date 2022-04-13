@@ -6,11 +6,52 @@
   text-transform: uppercase;
   border: thin solid $color-grey-600;
   font-weight: 500;
-  transition: background-color 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
 
   &:hover {
     background-color: $color-grey-200;
   }
 
-  &.primary {}
+  &.primary {
+    background-color: $color-primary;
+    border-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: transparent;
+      color: $color-primary;
+    }
+
+    &.inverted {
+      background-color: transparent;
+      color: $color-primary;
+
+      &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+      }
+    }
+  }
+
+  &.accent {
+    background-color: $color-accent;
+    border-color: $color-accent;
+    color: $color-white;
+
+    &:hover {
+      background-color: transparent;
+      color: $color-accent;
+    }
+
+    &.inverted {
+      background-color: transparent;
+      color: $color-accent;
+
+      &:hover {
+        background-color: $color-accent;
+        color: $color-white;
+      }
+    }
+  }
 }
